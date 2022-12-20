@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body className="bg-gray-100">
+      <body className="bg-gray-100 transition-all duration-700">
       <Header />
       <div>{children}</div>
       </body>
